@@ -1,0 +1,28 @@
+{
+  "name": "@dev-testing-ui/ui-components",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rvf build && tsc --p ./tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dev-testing-ui/ui-components.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tsconfig/recommended": "^1.0.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "publishConfig": {
+    "@dev-testing-ui:registry": "https://npm.pkg.github.com"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3"
+  }
+}
